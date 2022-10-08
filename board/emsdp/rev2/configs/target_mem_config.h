@@ -53,7 +53,7 @@
 #define ICCM_SIZE       0x20000
 #endif
 #ifndef ICCM_START
-#define ICCM_START      0x60000000
+#define ICCM_START      0x10000000
 #endif
 #endif
 
@@ -82,7 +82,7 @@
 #endif
 
 #ifndef EXT_RAM_START
-#define EXT_RAM_START   0x10000000
+#define EXT_RAM_START   0x40000000
 #endif
 
 #ifndef EXT_RAM_SIZE
